@@ -19,9 +19,9 @@
     </div>
 </div>
 </div>
-    <div class="position-absolute top-30 start-50 translate-middle" style="z-index: 99;">
+    <!-- <div class="position-absolute top-30 start-50 translate-middle" style="z-index: 99;">
         <img src="{{asset('/storage/uploads/profil.jpg')}}" class="rounded  img-thumbnail " alt="profil.jpg">
-    </div><br>
+    </div><br> -->
     <div class="alert alert-secondary"  role="alert">
         <div class="container">
         <div class=" d-flex mt-5 justify-content-center p-1 ">
