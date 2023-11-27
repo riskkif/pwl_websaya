@@ -11,6 +11,7 @@ class prodiController extends Controller
         $title = "Program Study Websaya.com";
         $slug = "Prodi";
         $mhs = "Riski";
+        // $dataProdi = DB::table('prodi')->get();
         $dataProdi = prodi::all();
         return view("prodi.index",compact("mhs","title","slug","slug","dataProdi"));
 }
@@ -43,7 +44,7 @@ class prodiController extends Controller
     }
 
     public function update(){
-        prodi::where("kd_prodi","=","D3KP")->update(['nama_prodi' => 'Keperawatan']);  
+        prodi::where("kd_prodi","=","D3TI")->update(['nama_prodi' => 'Keperawatan']);  
         echo "Data Berhasil Diperbaharui, <a href='/prodi'> Kembali</a>";
     }
     public function destroy(){
